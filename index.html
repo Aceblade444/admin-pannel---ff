@@ -23,7 +23,7 @@
     </div>
 
     <div id="add-account" class="tab-content active">
-        <h2 class="text-2xl font-bold mb-4">Add New BGMI Account</h2>
+        <h2 class="text-2xl font-bold mb-4">Admin-panel</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input type="text" id="name" placeholder="Account Name (e.g., Pro Season 1 ID)" class="p-2 rounded w-full">
             <input type="number" id="price" placeholder="Price (e.g., 1500)" class="p-2 rounded w-full">
@@ -71,15 +71,15 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
         import { getDatabase, ref, set, push, onValue, get, remove } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
-        const firebaseConfig = {
-  apiKey: "AIzaSyC733vFFJKwMBAd3BF1thVFzPO3CtrGDMY",
-  authDomain: "hits-bgmi-store.firebaseapp.com",
-  databaseURL: "https://hits-bgmi-store-default-rtdb.firebaseio.com",
-  projectId: "hits-bgmi-store",
-  storageBucket: "hits-bgmi-store.firebasestorage.app",
-  messagingSenderId: "861326661114",
-  appId: "1:861326661114:web:743fe86be5aca254f30043",
-  measurementId: "G-XF3L4PCK01"
+    const firebaseConfig = {
+  apiKey: "AIzaSyAdgG2KvEQhzCFIq2O8NpcIVG4P7QaO8Vc",
+  authDomain: "kunna-ff.firebaseapp.com",
+  databaseURL: "https://kunna-ff-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "kunna-ff",
+  storageBucket: "kunna-ff.firebasestorage.app",
+  messagingSenderId: "1082754909118",
+  appId: "1:1082754909118:web:a231699773ec6a0498efef",
+  measurementId: "G-PJRH47MN92"
 };
 
         const app = initializeApp(firebaseConfig);
